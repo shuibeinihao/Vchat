@@ -1,10 +1,7 @@
 <template>
     <div class="vchat-login" v-bgInmage="bg">
-        <div class="fork-me-on-github">
-            <a href="https://github.com/wuyawei" target="_blank"></a>
-        </div>
         <div class="logo" :class="{active: showSign}">
-            <h3 class="title">Hi, Vchat !</h3>
+            <h3 class="title">Hi, Winter !</h3>
             <span class="begain" @click="experience">立即体验</span>
         </div>
         <div class="sign" v-if="showSign">
@@ -43,11 +40,6 @@
                 <v-icon class="el-icon-loading" color="#fff" :size="14" v-if="loading"></v-icon>
                 {{islogin ? '登录' : '注册'}}
             </button>
-            <div class="login-foot" v-if="islogin">
-                <span></span>
-                第三方登录
-                <span></span>
-            </div>
         </div>
     </div>
 </template>
@@ -55,7 +47,7 @@
 <script>
     import api from '../api';
     import Canvas from 'vchat-regcode';
-    import bg from '../assets/img/0076.jpg';
+    import bg from '../assets/img/app5.jpg';
     export default {
         name: 'login',
         data() {
@@ -231,14 +223,6 @@
                 done();
             }
         },
-        mounted() {
-            /*fetch('/api/getUser').then(res=>res.json()).then(r=>{
-                if(r.code === 0){
-                    console.log(r);
-                }
-            });*/
-            /*api.getUser().then(r => {console.log(r)});*/
-        }
     }
 </script>
 
@@ -248,20 +232,6 @@
         height: 100%;
         overflow: hidden;
         position: relative;
-    }
-    .fork-me-on-github{
-        width: 150px;
-        height: 150px;
-        background-image: url("../assets/img/github.png");
-        position: absolute;
-        right: 0;
-        top:0;
-        background-size: contain;
-        a{
-            display: block;
-            width: 150px;
-            height: 150px;
-        }
     }
     .logo{
         margin-top: 15%;

@@ -2,7 +2,7 @@
     <div class="vchat-header">
         <div class="vchat-main-header" v-if="isMainHeader">
             <div class="vchat-header-container">
-                <div class="vchat-logo">Vchat</div>
+                <div class="vchat-logo">Winter</div>
                 <div class="vchat-mine">
                     <nav class="vchat-noUser">
                         <!--class="animated" :class="{bounceIn: hover}" @mouseover="mouseover" ref="showChat"-->
@@ -194,7 +194,7 @@
                 justify-content: space-between;
                 align-items: center;
                 position: relative;
-                background-color: #28828f;
+                background-color: #366f71;
                 z-index: 2002;
             }
             .vchat-logo {
@@ -229,9 +229,6 @@
                     img {
                         width: 100%;
                     }
-                }
-                > div:nth-of-type(1):hover {
-                    background-color: #f5f5f5;
                 }
                 .handleList {
                     width: 128px;
@@ -342,15 +339,15 @@
                             font-size: 13px;
                         }
                         li:hover{
-                            color: #52d5d2;
+                            color: #67c23a;
                         }
                     }
                     >div:hover{
-                        background-color: #f5f5f5;
+                        // background-color: #f5f5f5;
                         color: #323232;
                     }
                     >div:hover .nav-btn{
-                        color: #52d5d2;
+                        color: #67c23a;
                     }
                 }
             }

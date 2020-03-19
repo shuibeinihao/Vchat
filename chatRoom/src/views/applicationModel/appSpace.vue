@@ -1,11 +1,5 @@
 <template>
     <div class="vchat-appSpace">
-        <el-carousel trigger="click" height="100%" arrow="never" indicator-position="none"  :interval="300000">
-            <el-carousel-item v-for="(item, i) in bgList" :key="i">
-                <a class="DetailImage-a" :style="{backgroundImage: 'url('+ item +')'}">
-                </a>
-            </el-carousel-item>
-        </el-carousel>
         <div class="vchat-appSpace-container">
             <div class="space-item" v-for="(v, i) in appList" :key="i" :class="[v.name]" @click="toCenter(v.link)">
                 <img :src="v.src" alt="">
@@ -91,7 +85,7 @@
             left:0;
             top:0;
             z-index: 2;
-            background-color: rgba(0,0,0,0.2);
+            background:#366f71;
             display: flex;
             justify-content: space-around;
             flex-wrap: wrap;

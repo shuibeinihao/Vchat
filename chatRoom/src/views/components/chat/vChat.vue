@@ -196,6 +196,7 @@
             width:100%;
             height: 100%;
             z-index: 2;
+            background:#2a6769;
         }
         .chat-header{
             width:100%;
@@ -311,7 +312,6 @@
             transform: translateX(100%);
             z-index: 2005;
             border-radius: 5px 2px 0 5px;
-            box-shadow: -1px 0 5px #bdafaf;
             overflow-y: auto;
             overflow-x: hidden;
             color: #111;
@@ -324,7 +324,6 @@
             h5{
                 text-align: left;
                 margin: 5px 5px 10px 5px;
-                border-bottom: 1px solid #d5d5d5;
                 padding-bottom: 5px;
             }
             .deClose{

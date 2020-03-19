@@ -74,7 +74,8 @@
             height: 100%;
             box-sizing: border-box;
             background-color: #fff;
-            box-shadow: 0 0 1px 1px #d5d5d5;
+            overflow:hidden;
+            border:1px solid #ebeef5;
         }
         .vchat-content-left-content{
             width:100%;

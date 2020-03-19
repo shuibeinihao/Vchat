@@ -9,7 +9,6 @@
             </div>
             <ul class="weather-list">
                 <li>
-                    <p>发布时间：{{LiveWeather.reportTime}}</p>
                     <p class="temperature">
                         <span>{{LiveWeather.temperature}}</span>℃
                         {{LiveWeather.weather}}
@@ -134,7 +133,7 @@
 .vchat-weather{
     width: 100%;
     height: 250px;
-    background-image: url("../../../assets/img/weather_b1.jpg");
+    background-image: url("../../../assets/img/app4.jpg");
     position: relative;
     border-radius: 5px 5px 0 0;
     overflow: hidden;
@@ -186,7 +185,7 @@
     display: block;
     content: '';
     position: absolute;
-    background: linear-gradient(left top, rgba(22,22,22,1), rgba(0,0,0,0));
+    background: linear-gradient(left top,#366f71, rgba(0,0,0,0));
     left:0;
     top:0;
     width:100%;

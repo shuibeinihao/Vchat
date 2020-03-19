@@ -22,7 +22,7 @@
             },
             bgColor: {
                 type: String,
-                default: '#27cac7'
+                default: '#439296'
             }
         },
         data() {
